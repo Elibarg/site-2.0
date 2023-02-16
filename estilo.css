@@ -1,0 +1,30 @@
+.texto1
+    {
+    position: absolute;
+    color: white;
+    top: 350px; 
+    left: 750px;
+    width: 350px;
+    }
+    .titulo
+    {
+        position: absolute;
+        top: 20px;
+        left: 550px;
+        
+    }
+    .discneymar
+    {
+        position: absolute;
+        top: 350px; 
+        left: 550px;  
+        
+    }
+
+   .titulo2
+   {
+    position: absolute;
+    top: 135px;
+    left: 625px;
+   } 
+   

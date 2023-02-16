@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+<style>
+    .planeta
+    {
+        position: absolute;
+        height: 50px;
+        left: 970px;
+        top: 125px;
+
+    }
+    .planeta2
+    {
+        position: absolute;
+        height: 50px;
+        left: 550px;
+        top: 125px;    
+    }
+    .disquete
+    {
+        position: absolute;
+        height: 100px;
+        left: 350px;
+        top: 425px;
+        animation: anima_disquete 5s infinite alternate;
+        
+    }
+    @keyframes anima_disquete 
+    {
+            0%   { rotate: 60deg; }
+            100% { rotate: 660deg;  } 
+            0%   { left: 350pxpx; }
+            50%  { left: 250px;  top: 500px; }
+            100% { left: 250px;  top: 120px;  } 
+    }
+
+
+    .disquete2
+    {
+        position: absolute;
+        height: 100px;
+        left: 1125px;
+        top: 425px;
+    }
+    
+
+</style>
+</head>
+
+<body style="background-image: url(Fundo.png);">
+    <div  class="texto1" > 
+    <h3>
+    Um produto que visa a nostalgia juntamente a
+    </h3>
+<h3> 
+viabilidade de armazenamento em seu sistema, com isso em mente
+</h3>
+<h3> 
+apresentamos uma nova geração de disquetes.
+</h3>
+</div>
+
+    <div class="titulo">
+<img src="titulo.png" alt="150px">
+</div>
+
+<div class="discneymar">
+<img src="Neymar disc.png" alt="150px">
+</div>
+<div class="titulo2">
+<img src="titulo 2.png" alt="150px">
+</div>
+
+<img src="planeta gif.gif" class="planeta">
+<img src="disquete gif.gif" class="disquete">
+<img src="disquete gif.gif" class="disquete2">
+<img src="planeta gif.gif" class="planeta2">
+</body>
+
+</html>
